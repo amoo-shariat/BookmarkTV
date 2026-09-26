@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BookmarkTV</string>
+    <string name="add_bookmark">Add site</string>
+    <string name="add_bookmark_hint">Paste a URL, e.g. https://example.com</string>
+    <string name="loading_thumbnail">Fetching site info…</string>
+    <string name="no_video_detected">No playable video detected yet — keep browsing to a video page.</string>
+    <string name="play_detected">Play detected video</string>
+    <string name="up_next">Up next</string>
+</resources>
