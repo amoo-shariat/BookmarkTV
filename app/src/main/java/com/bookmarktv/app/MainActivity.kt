@@ -39,8 +39,9 @@ class MainActivity : FragmentActivity() {
 
         BackgroundManager.getInstance(this).attach(window)
 
+        val appName = getString(R.string.app_name)
         val browseFragment = BrowseSupportFragment().apply {
-            title = getString(R.string.app_name)
+            title = appName
             headersState = BrowseSupportFragment.HEADERS_DISABLED
             isHeadersTransitionOnBackEnabled = false
         }
