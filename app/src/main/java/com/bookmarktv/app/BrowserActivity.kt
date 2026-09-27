@@ -10,7 +10,7 @@ import android.webkit.WebResourceResponse
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
+import android.app.Activity
 import java.util.Collections
 
 /**
@@ -25,7 +25,7 @@ import java.util.Collections
  * suggestions or playlist UI -- it shows the site's real page, just adapted
  * for remote-control navigation.
  */
-class BrowserActivity : AppCompatActivity() {
+class BrowserActivity : Activity() {
 
     private lateinit var webView: WebView
     private lateinit var statusBar: TextView
