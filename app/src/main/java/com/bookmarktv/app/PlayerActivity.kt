@@ -1,7 +1,7 @@
 package com.bookmarktv.app
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import android.app.Activity
 import androidx.media3.common.MediaItem
 import androidx.media3.common.Player
 import androidx.media3.common.util.UnstableApi
@@ -24,7 +24,7 @@ import androidx.media3.ui.PlayerView
  * its actual suggestion engine.
  */
 @UnstableApi
-class PlayerActivity : AppCompatActivity() {
+class PlayerActivity : Activity() {
 
     private lateinit var player: ExoPlayer
     private lateinit var queue: List<String>
